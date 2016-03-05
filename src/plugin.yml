@@ -1,0 +1,25 @@
+ name: KeepPvP
+ version: 1.0.0
+ description: This will keep things that you mark to be kept.
+ author: DUFC_Liam
+ authors: [] 
+ 
+ main: me.KeepPvP.KeepPvP
+ database: false
+ depend: []
+ 
+ commands:
+   KeepPvP:
+     description: This is the information command
+     aliases: []
+     permission: KeepPvP.Keep
+     usage: /KeepPvP
+     
+ permissions:
+   KeepPvP.*:
+     description: This will give you all permissions for this plugin.
+     children:
+       KeepPvP.1: true
+     default: op
+   KeepPvP.keep:
+     description: This will let you keep your invertory on death.
