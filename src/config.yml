@@ -1,0 +1,7 @@
+#----- KeepPvP V1.0 Configuration -----#
+
+# Lets users keep swords on death
+swords: true
+
+# Lets users keep armor on death
+armor: true
